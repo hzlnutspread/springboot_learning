@@ -6,8 +6,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class MainTests {
 
-	@Test
-	void contextLoads() {
-	}
+//	Service layer tests
+//	Mocking tests (not using the real dependencies)
+
 
 }
