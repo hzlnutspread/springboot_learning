@@ -1,0 +1,15 @@
+server:
+  port: '8082'
+spring:
+  database:
+    driver-class-name: com.mysql.jdbc.Driver
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/dcbapp
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+testController:
+  message: THIS IS A TEST MESSAGE
